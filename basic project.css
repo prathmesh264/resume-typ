@@ -226,16 +226,26 @@ body {
     gap: 6px;
 }
 
-.circle-js, .circle-css, .circle-html {
+/* --- Language Circles --- */
+.circle-java, .circle-spring, .circle-js, .circle-react, 
+.circle-tailwind, .circle-mysql, .circle-html, .circle-css {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     display: inline-block;
 }
 
-.circle-js { background-color: #f1e05a; }
-.circle-css { background-color: #563d7c; }
+/* --- Specific Brand/GitHub Colors --- */
+.circle-java { background-color: #b07219; }       /* GitHub Java Brown */
+.circle-spring { background-color: #6db33f; }     /* Spring Leaf Green */
+.circle-js { background-color: #f1e05a; }         /* GitHub JS Yellow */
+.circle-react { background-color: #61dafb; }      /* React Cyan */
+.circle-tailwind { background-color: #38bdf8; }   /* Tailwind Blue */
+.circle-mysql { background-color: #4479a1; }      /* MySQL Blue */
+
+/* (Keeping your original HTML/CSS colors just in case you use them elsewhere) */
 .circle-html { background-color: #e34c26; }
+.circle-css { background-color: #563d7c; }
 
 /* --- MAIN CONTENT (README) --- */
 .gh-main {
@@ -540,25 +550,3 @@ body {
         text-align: left;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
